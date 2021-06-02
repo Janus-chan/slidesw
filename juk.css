@@ -1,0 +1,36 @@
+*{
+  margin:0%;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div:nth-child(1){
+  background-color:red;
+  height: 100vh;
+  width: 100vw;
+}
+div:nth-child(2){
+  background-color:yellow;
+  height: 100vh;
+  width: 100vw;
+}
+div:nth-child(3){
+  background-color:green;
+  height: 100vh;
+  width: 100vw;
+}
+div:nth-child(4){
+  background-color:blue;
+  height: 100vh;
+  width: 100vw;
+}
+@viewport{
+  width: device-width;
+  zoom:1.0;
+}
